@@ -1,0 +1,22 @@
+@import "@{global}";
+
+#settings-window #logs-tab { display: none; }
+
+#settings-window #logs-tab #logTable { width: 100%; }
+
+#settings-window #logs-tab td { font-family: monospace; color:@tertiary; }
+#settings-window #logs-tab thead td { color:@light; }
+#settings-window #logs-tab .logDate { width: 100px; }
+
+#settings-window #logs-tab .logCode { width: 150px; }
+
+#settings-window #logs-tab pre { margin: 0; }
+
+#settings-window #logs-tab .container-logs {
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    color: @success;
+    overflow-x: auto;
+    white-space: nowrap;
+}
